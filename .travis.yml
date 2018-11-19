@@ -7,7 +7,7 @@ install:
 - sudo pip install s3cmd
 script:
 - hugo
-- s3cmd --acl-public --delete-removed --no-progress --access_key=$ACCESS_KEY_ID --secret_key=$SECRET_ACCESS_KEY sync public/ s3://kumasan.space
+- s3cmd --acl-public --delete-removed --no-progress sync public/ s3://kumasan.space
 notifications:
  email:
  on_failure: always
