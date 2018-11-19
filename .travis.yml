@@ -1,10 +1,14 @@
 language: go
 install:
 - go get -v github.com/spf13/hugo
-- pip install urllib3[secure] --user awscli
 script:
-- hugo version
-- make deploy
+ - hugo
+ - python --version
+ - sudo pip install s3cmd
+ - s3cmd sync --delete-removed --access_key=$ACCESS_KEY_ID --secret_key=$SECRET_ACCESS_KEY -P -M -r public/ s3://kumasan.space
+notifications:
+	email:
+	on_failure: always
 branches:
   only:
   - master
