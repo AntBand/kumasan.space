@@ -1,6 +1,6 @@
 branches:
-	only:
-	 - master
+ only:
+ - master
 language: go
 install:
 - go get -v github.com/spf13/hugo
@@ -9,8 +9,8 @@ script:
 - hugo
 - s3cmd --acl-public --delete-removed --no-progress --access_key=$ACCESS_KEY_ID --secret_key=$SECRET_ACCESS_KEY sync public/ s3://kumasan.space
 notifications:
-	email:
-	on_failure: always
+ email:
+ on_failure: always
 env:
   global:
   - secure: inGtQaI0O6hJH3JXJI2UC2fWE9vDqthyrqBoW8X2u9Vtg3pm0fZ5qfs8wKJI0yUWga6sqHwXORkJBCKwNWYPBinbBCapI96XRuS1Y+2lkHe3uWrOa2DTKoCZ9NVw1WWsrFSRX6VL5N98kP2ruse9hrOKzckhslo/uHUz21pA77OhvEOTw+Yq/g8MKD1uaKDPuRvOf15uxr+XUfhKML8/8948/jkEbUENXl4k+9xzzIOlFum5IMk6UJ1knUuIRF9ZaZ4MxzVgXlO+XJ9ntCW2v7IPmkfMAiUa5JQfpF3hAzGITqfmSoSZCaKPMv/eKQC9N7OhOhsH7+Ikw1+2lfjQknYIuwNvP/qBkBII4iopuw8HQDqXPjDLrAVJIn8DF5+GBjdQHwEuIcaTc68skpkBwstuWZF2uh4qxo/y9zpPu3Xoq8B+CHWEreikUIpvlOLgIvZiF4WAmiMZOi+uA87vW1uAcVlG/drB1mb++giX+DP4HhnJ+bonjqF92gB7ApOr3E1DIk02Sl2E60zOponJIRqdbjp2rhCeoaBsHtk296gT3+k76/+I9PfVjoAqrzxiPGeeRhbKVoNtLeVuM9YnqwnusRXLTcLjtUPP4gYUb84GmM/0HB1HQQ8KtCRhlfzBTn1shqCb637j+bRsU0SRwSrBtlVCWz9b4lEtt6XaGig=
