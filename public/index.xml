@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Hugo Academic</title>
+    <link>https://example.com/</link>
+    <description>Recent content on My Hugo Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; Anthony helm</copyright>
+    <lastBuildDate>Mon, 12 Nov 2018 21:57:28 -0500</lastBuildDate>
+    
+	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Another Post</title>
+      <link>https://example.com/post/another-post/</link>
+      <pubDate>Mon, 12 Nov 2018 21:57:28 -0500</pubDate>
+      
+      <guid>https://example.com/post/another-post/</guid>
+      <description>Second post on the blog. Want to read more about me</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://example.com/about/</link>
+      <pubDate>Mon, 12 Nov 2018 21:56:22 -0500</pubDate>
+      
+      <guid>https://example.com/about/</guid>
+      <description>I&amp;rsquo;m a new blogger, testing Hugo!</description>
+    </item>
+    
+    <item>
+      <title>Hello Hugo World</title>
+      <link>https://example.com/post/hello-world/</link>
+      <pubDate>Mon, 12 Nov 2018 21:52:09 -0500</pubDate>
+      
+      <guid>https://example.com/post/hello-world/</guid>
+      <description>Welcome to my hugo testing site!
+There&amp;rsquo;s nothing here yet, but stay tuned!</description>
+    </item>
+    
+    <item>
+      <title>More filler content</title>
+      <link>https://example.com/blog/more/</link>
+      <pubDate>Thu, 26 Jul 2018 17:44:36 -0700</pubDate>
+      
+      <guid>https://example.com/blog/more/</guid>
+      <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, ex sit amet condimentum placerat, neque dolor facilisis purus, in elementum ex urna at ante. Praesent turpis leo, auctor at justo vel, dignissim imperdiet tellus. Vivamus nec orci luctus, pharetra mauris eget, tristique ligula. Integer elit lorem, blandit ut eros et, efficitur aliquet dui. Aenean sed orci lorem. Nulla facilisi. Cras sollicitudin odio eu erat sollicitudin, sit amet volutpat risus condimentum.</description>
+    </item>
+    
+    <item>
+      <title>Another blog post this is</title>
+      <link>https://example.com/blog/second/</link>
+      <pubDate>Wed, 25 Jul 2018 17:44:36 -0700</pubDate>
+      
+      <guid>https://example.com/blog/second/</guid>
+      <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, ex sit amet condimentum placerat, neque dolor facilisis purus, in elementum ex urna at ante. Praesent turpis leo, auctor at justo vel, dignissim imperdiet tellus. Vivamus nec orci luctus, pharetra mauris eget, tristique ligula. Integer elit lorem, blandit ut eros et, efficitur aliquet dui. Aenean sed orci lorem. Nulla facilisi. Cras sollicitudin odio eu erat sollicitudin, sit amet volutpat risus condimentum.</description>
+    </item>
+    
+    <item>
+      <title>This is a blog post</title>
+      <link>https://example.com/blog/first/</link>
+      <pubDate>Tue, 24 Jul 2018 17:44:36 -0700</pubDate>
+      
+      <guid>https://example.com/blog/first/</guid>
+      <description>Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, ex sit amet condimentum placerat, neque dolor facilisis purus, in elementum ex urna at ante. Praesent turpis leo, auctor at justo vel, dignissim imperdiet tellus. Vivamus nec orci luctus, pharetra mauris eget, tristique ligula. Integer elit lorem, blandit ut eros et, efficitur aliquet dui. Aenean sed orci lorem. Nulla facilisi. Cras sollicitudin odio eu erat sollicitudin, sit amet volutpat risus condimentum.</description>
+    </item>
+    
+  </channel>
+</rss>
