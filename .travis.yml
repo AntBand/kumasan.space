@@ -1,7 +1,7 @@
 language: go
 install:
 - go get -v github.com/spf13/hugo
-- sudo pip3 install --user awscli
+- sudo pip install --upgrade --user awscli
 script:
 - hugo version
 - make deploy
