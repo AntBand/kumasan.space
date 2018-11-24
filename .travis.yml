@@ -4,7 +4,7 @@ branches:
 language: go
 install:
 - go get -v github.com/spf13/hugo
-- sudo pip install s3cmd
+- sudo pip install awscli
 script:
 - hugo
 deploy:
