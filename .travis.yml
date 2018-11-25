@@ -10,6 +10,8 @@ deploy:
   secret_access_key:
     secure: C1Dp1s4N8++9lvQWB3jraD/veRVTpzFl8yT2wWzTEUmCNl36EhAMRTqy1iQqJiiHbaB4uUUfiP/eyChhAV7egKvdCrydLH2WcbDuOVYwlEs+mF7yU/27DxVqZmfYsjTnF9Ur3o+4/WqtSdVQ66oVUPA1iZTFwT0b6sygRO5LTpfB/wWLRXrUOaRsEJhwZaRIE1UrNdxHz3DoadSmMnpU2x9QFo7DIcIMErPlL1lHCsGir1G/Rf/gideXBr25Tyv0YJKUkntWzxY1aCzS/8mNGOlMbMSBnUprKIKGZxrMRZbjiW+7t2meqGt6M+XTITIVU/gABksWexCYO2IUiD78fT1RhOHI13HNv7FqDX8/ixJVUj/dMC/PpYv3/8iWmjsvxxw94abJk2hl4cGI7qeJRHQNdfyShqhw31LrMgFhTlnD/3zMvGSgwXwZYhR2cAHxEGcJp8LnqmRgL88ioKIMC0Hyk8+MA+0HY/HDzX6P1MpU140T/D/s5ACoG/DDw1Wkvuc8ftoGWeY04M9ZDJISKbaVnvtYlrOS0gPn639+9Zj1jGnARH7bJ6mTZGU6Qd+/r8bc7Yvrnd9Rq3vKbnYp8259kP1f8mYeeb+QCSagRVTL+DKIVCfbDaGaT3lxHDgNMYEb1+1yy+6k3KJjtpYbvRAnNLAaZHsvfPFTWS8DJlE=
   bucket: kumasan.space
+  region: ap-northeast-1
+  local_dir: dist
   skip_cleanup: true
   acl: public_read
   on:
